@@ -119,7 +119,7 @@ const App = () => {
         <h2 className='text-2xl font-bold p-4 border-b border-gray-400'>Connected Users</h2>
         <ul className='mt-5'>
           {users.map((user, index) => (
-            <li key={index} className='p-2 bg-gray-800 text-white mx-7 mb-2 rounded'>
+            <li key={index} className='p-2 bg-[#e55400] text-white mx-7 mb-2 rounded'>
               {user.username}
             </li>
           ))}
