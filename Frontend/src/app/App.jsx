@@ -35,7 +35,7 @@ const App = () => {
 
   useEffect(() => {
     if (username) {
-      const provider = new SocketIOProvider("http://localhost:3000", "monaco", yDoc, {
+      const provider = new SocketIOProvider("/", "monaco", yDoc, {    //change the server URL to / if the frontend and backend are served from the same origin for production, otherwise use the backend server URL (e.g., http://localhost:3000) for development
         autoConnect: true
       });
 
