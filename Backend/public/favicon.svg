@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="faviconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Transparent background, no fill -->
+  
+  <!-- Circular white background -->
+  <circle cx="100" cy="100" r="95" fill="white"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#faviconGrad)" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Left bracket -->
+  <path d="M 60 50 L 50 50 L 50 150 L 60 150" stroke="url(#faviconGrad)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right bracket -->
+  <path d="M 140 50 L 150 50 L 150 150 L 140 150" stroke="url(#faviconGrad)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Weaving lines - left -->
+  <path d="M 75 70 Q 90 100 75 130" stroke="#f35b04" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Weaving lines - right -->
+  <path d="M 125 70 Q 110 100 125 130" stroke="#06b6d4" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>
